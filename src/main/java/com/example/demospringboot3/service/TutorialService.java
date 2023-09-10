@@ -1,11 +1,15 @@
 package com.example.demospringboot3.service;
 
 import com.example.demospringboot3.model.Tutorial;
+import com.example.demospringboot3.repository.TutorialRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TutorialService {
+//    public TutorialService( TutorialRepository) {
+//    }
+
     static List<Tutorial> tutorials = new ArrayList<Tutorial>();
     static long id = 0;
 
